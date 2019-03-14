@@ -1,6 +1,7 @@
 # eks-workshop-sample-api-service-go
 
 A sample Kubernetes service used in the [EKS Workshop](https://eksworkshop.com/) CI/CD Pipeline module.
+Change in readme
 
 The Dockerfile is a [multi-stage](https://docs.docker.com/develop/develop-images/multistage-build/) build that
 compiles the Go application and then packages it in a minimal image that pulls from [scratch](https://hub.docker.com/_/scratch/).
